@@ -1,0 +1,3 @@
+RV32I directed test start: load_store
+TEST PASS: load_store
+/Users/cherrywj/Desktop/riscv-mini/dv/tb/rv32i_tb.sv:552: $finish called at 310000 (1ps)

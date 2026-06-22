@@ -1,0 +1,3 @@
+RV32I directed test start: trap_misaligned_control
+TEST PASS: trap_misaligned_control
+/Users/cherrywj/Desktop/riscv-mini/dv/tb/rv32i_tb.sv:552: $finish called at 290000 (1ps)

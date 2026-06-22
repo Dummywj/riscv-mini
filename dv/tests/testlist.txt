@@ -1,0 +1,7 @@
+reset_x0_alu
+alu_reg_fence
+branch_jump_link
+load_store
+trap_illegal_system
+trap_misaligned_data
+trap_misaligned_control

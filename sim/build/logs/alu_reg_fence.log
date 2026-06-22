@@ -1,0 +1,3 @@
+RV32I directed test start: alu_reg_fence
+TEST PASS: alu_reg_fence
+/Users/cherrywj/Desktop/riscv-mini/dv/tb/rv32i_tb.sv:552: $finish called at 210000 (1ps)

@@ -1,0 +1,3 @@
+RV32I directed test start: branch_jump_link
+TEST PASS: branch_jump_link
+/Users/cherrywj/Desktop/riscv-mini/dv/tb/rv32i_tb.sv:552: $finish called at 290000 (1ps)
