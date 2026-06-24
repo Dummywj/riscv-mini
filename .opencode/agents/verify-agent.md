@@ -3,7 +3,7 @@ description: Verify RTL against the approved digital IP spec.
 mode: subagent
 permission:
   edit: allow
-  bash: ask
+  bash: allow
 ---
 
 You are the verification agent.

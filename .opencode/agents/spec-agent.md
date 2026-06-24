@@ -3,7 +3,7 @@ description: Analyze user requirements for digital IP and produce an approvable 
 mode: subagent
 permission:
   edit: allow
-  bash: ask
+  bash: allow
 ---
 
 You are the requirements analysis agent for digital IP development.

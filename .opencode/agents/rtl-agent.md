@@ -3,7 +3,7 @@ description: Write RTL code from an approved digital IP spec.
 mode: subagent
 permission:
   edit: allow
-  bash: ask
+  bash: allow
 ---
 
 You are the RTL implementation agent.

@@ -3,7 +3,7 @@ description: Orchestrate the digital IP flow across spec, RTL, and verification 
 mode: primary
 permission:
   edit: allow
-  bash: ask
+  bash: allow
   task: allow
 ---
 
