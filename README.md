@@ -24,7 +24,7 @@
     * `.opencode/agents/spec-agent.md`：需求分析 agent，负责生成 docs/spec/ip_spec.md 和审批文档。
     * `.opencode/agents/rtl-agent.md`：RTL 实现 agent，只能基于已批准 spec 写 rtl/src/ 和更新微架构文档。
     * `.opencode/agents/verify-agent.md`：验证 agent，负责验证计划、testbench、assertions、测试报告。
-  * `.opencode/commands/`：自定义斜杠命令入口，比如 [ip-flow.md](http://ip-flow.md/)、[spec.md](http://spec.md/)、[rtl.md](http://rtl.md/)、[verify.md](http://verify.md/)，用于触发对应流程或 agent。
+  * `.opencode/commands/`：自定义斜杠命令入口，比如 ip-flow.md、spec.md、rtl.md、verify.md，用于触发对应流程或 agent。
   * `.opencode/skills/digital-ip-flow/SKILL.md`：数字 IP 开发 skill，定义需求、RTL、验证三阶段工作流。
 * `Makefile` ：将实际的 scripts 脚本封装到 makefile 中，约束 Agent 调用 tools 的行为。
 * `scripts` :  tools 具体实现。
@@ -33,7 +33,9 @@
 
 ## Agent 协作关系
 
+人只需要和 main agent 进行交互。
 
+![1782300063420](image/README/1782300063420.png)
 
 ## 人的工作流
 
@@ -45,3 +47,4 @@
 ## 待挖掘部分
 
 * 添加用户 app，让 CPU 可以运行简单的示例程序。
+* 在 CPU 基础上搭建 SoC，形成计算机系统。
