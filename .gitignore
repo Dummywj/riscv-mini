@@ -1,0 +1,48 @@
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# opencode local dependencies
+.opencode/node_modules/
+
+# Simulation and build outputs
+sim/build/
+build/
+out/
+logs/
+*.log
+*.vvp
+*.vcd
+*.fst
+*.fsdb
+*.wlf
+*.jou
+*.str
+*.pb
+*.key
+*.history
+
+# Tool-generated directories
+obj_dir/
+work/
+INCA_libs/
+xcelium.d/
+csrc/
+simv
+simv.daidir/
+verilator_coverage.dat
+coverage/
+cov_work/
+formal/build/
+
+# Python caches from helper scripts
+__pycache__/
+*.py[cod]
